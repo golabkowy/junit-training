@@ -39,6 +39,6 @@ public class ClassATests {
     @Test
     public void powerTest() {
         // expected result for parameters (5,5) is 25 !!! remember DELTA here
-        assertEquals(classA.power(5, 3), 25, 1);
+        assertEquals(classA.power(5, 2), 25, 1);
     }
 }
